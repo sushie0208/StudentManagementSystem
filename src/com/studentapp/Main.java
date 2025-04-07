@@ -81,7 +81,7 @@ private static Scanner scanner;
 					.orElseThrow(() -> new RuntimeException("No Data Found "));
 
 		} catch (RuntimeException e) {
-			System.err.println("Sudent with id " + studentId + " Not found");
+			System.err.println("Student with id " + studentId + " Not found");
 		}
 		studentFound.printStudentInfo();
 		
